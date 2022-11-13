@@ -1,0 +1,74 @@
+:root {
+    --main-color: #ffaa00;
+    --main-light: #ffbf40;
+    --main-lighter: #fdda93;
+    --main-lightest:#fff9ed;
+    --main-dark: #bd7e02;
+    --main-darker: #825700;
+    --main-darkest: #4a3100;
+    --wordpress-main: #c97332;
+    --red-orange: #ff6f00;
+    --red-orange-light: #ff9645;
+    --red-orange-lighter: #ffbe8c;
+    --red-orange-lightest: #ffecde;
+    --red-orange-dark: #c45500;
+    --red-orange-darker: #823800;
+    --red-orange-darkest: #2e1400;
+    --light-shade: #F4F4F1;
+    --light-accent: #27AECD;
+    --main-brand: #EF602A;
+    --dark-accent: #EBBA3A;
+    --dark-shade: #272B2F;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    width: 100vw;
+    height: 10rem;
+    padding: 1rem;
+    background-color: var(--main-brand);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav li {
+    display: inline;
+    padding: 0 1rem;
+}
+.nav a {
+    font-size: 1.3rem;
+}
+.nav a:link,
+.nav a:visited{
+    color: black;
+    text-decoration: none;
+}
+.nav a:hover {
+    cursor: pointer;
+    text-decoration: underline var(--dark-accent);
+}
+.nav a:active {
+    color: gray;
+}
+#one {
+    width: 100vw;
+    min-height: calc(100vh-10rem);
+    position: relative;
+    background-color: var(--light-accent);
+}
+#two {
+    width: 75vw;
+    height: 75vh;
+    background-color: var(--dark-shade);
+}
+#three {
+    width: 100vw;
+    height: 3rem;
+    position: relative;
+    bottom: 10rem;
+    background-color: var(--dark-accent);
+}
